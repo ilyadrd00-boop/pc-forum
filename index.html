@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Форум про ПК</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  </head>
+  <body>
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>ПК Форум</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Разделы</a></li>
+        <li><a href="#" role="button">Войти</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <div class="grid">
+        <section>
+          <hgroup>
+            <h2>Добро пожаловать на форум ПК</h2>
+            <h3>Общайся, собирай, обсуждай!</h3>
+          </hgroup>
+          <p>Здесь ты найдешь всё о компьютерах — от комплектующих до софта и апгрейдов.</p>
+          <figure>
+            <img src="https://dalle-pics.s3.amazonaws.com/35597221-f62e-43d0-87b3-5a14e3c4a94e/image.png" alt="Форум ПК и игровой компьютер" />
+            <figcaption>
+              <a href="https://dalle-pics.s3.amazonaws.com/35597221-f62e-43d0-87b3-5a14e3c4a94e/image.png" target="_blank">Открыть изображение</a>
+            </figcaption>
+          </figure>
+
+          <h3>Разделы форума</h3>
+          <p><strong>💻 Железо:</strong> Обсуждение комплектующих, периферии и другого оборудования (12 тем)</p>
+          <p><strong>🛠 Сборки:</strong> Советы по сборке, разгону, охлаждению и апгрейдам (5 тем)</p>
+          <p><strong>📦 Софт:</strong> Операционные системы, программы, утилиты (23 темы)</p>
+          <p><strong>💬 Общие обсуждения:</strong> Всё, что связано с ПК и не только (45 тем)</p>
+        </section>
+      </div>
+    </main>
+
+    <section aria-label="Subscribe example">
+      <div class="container">
+        <article>
+          <hgroup>
+            <h2>Подпишись на обновления</h2>
+            <h3>Никакого спама — только самое полезное</h3>
+          </hgroup>
+          <form class="grid">
+            <input type="text" id="firstname" name="firstname" placeholder="Твоё имя" aria-label="Имя" required />
+            <input type="email" id="email" name="email" placeholder="Твой email" aria-label="Email" required />
+            <button type="submit" onclick="event.preventDefault()">Подписаться</button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <footer class="container">
+      <small><a href="#">Контакты</a> • <a href="#">Политика конфиденциальности</a></small>
+    </footer>
+  </body>
+</html>
